@@ -48,3 +48,29 @@ El público objetivo principal abarca a adultos entre 25 y 65 años (madres, pad
    * **Decisión de diseño:** Diseñar áreas táctiles grandes (mínimo 48x48 dp) y ubicar las acciones principales (como la *Navigation bar* y el botón de pago) en la parte inferior de la pantalla.
 3. **Insight:** Los usuarios abandonan la búsqueda si no pueden filtrar rápidamente por la edad o el precio que necesitan.
    * **Decisión de diseño:** Integrar *Filter chips* horizontales y deslizables en la pantalla del catálogo para aplicar filtros con un solo toque.
+
+## 3. Arquitectura de la información y wireframes
+
+### 3.1 Mapa de navegación
+
+```mermaid
+graph TD
+    A[Inicio] --> B[Catálogo]
+    A --> C[Favoritos]
+    B --> D[Detalle de Producto]
+    C --> D
+    D --> E[Carrito]
+    E --> F[Checkout]
+    F --> G((Confirmación))
+    G --> A
+    
+ ```
+### 3.2 Wireframes de baja fidelidad
+
+![Inicio](capturas/wireframes/Inicio.png)
+![Catalogo](capturas/wireframes/Catalogo.png)
+![Detalle de producto](capturas/wireframes/Detalle.png)
+![Carrito](capturas/wireframes/Carrito.png)
+![Checkout](capturas/wireframes/Checkout.png)
+![Confirmacion](capturas/wireframes/Confirmacion.png)
+![Favoritos](capturas/wireframes/Favoritos.png)
