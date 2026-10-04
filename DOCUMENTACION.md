@@ -74,3 +74,19 @@ graph TD
 ![Checkout](capturas/wireframes/Checkout.png)
 ![Confirmacion](capturas/wireframes/Confirmacion.png)
 ![Favoritos](capturas/wireframes/Favoritos.png)
+
+
+### 3.3 Guia de estilo Material Design 3
+
+A partir del color semilla que he elegido en el Material Theme Builder, se han generado los esquemas de color claro (*light*) y oscuro (*dark*), garantizando una experiencia visual limpia y relajada para la tienda de ropa infantil "Pequeños Pasos".
+
+### Verificacion de contraste (WCAG AA)
+Se a validado que las combinaciones principales de texto sobre color de fondo cumplen con el ratio minimo de 4,5:1:
+* **Texto principal (on surface) sobre Fondo (surface):** Ratio superior a 12:1 (Supera el estandar WCAGG y AAA).
+* **Texto sobre Boton Primario (on-primary sobre primary):** Ratio superior a 7:1, asegurando legibilidad absololuta en llamadas a la accion. 
+
+#### Especificaciones de la rejilla (*Grid*) y accesibilidad
+* **Columnas:** 4 columnas adaptadas para dispositivos móviles (Android Compact).
+* **Márgenes laterales:** 16 dp.
+* **Espaciado y sistema de medidas:** Múltiplos de 8 dp para mantener la coherencia visual.
+* **Áreas táctiles (*Touch targets*):** Todos los elementos interactivos (botones, chips, iconos de navegación) poseen un tamaño mínimo de **48×48 dp** para facilitar la usabilidad de los padres y abuelos al interactuar con la app.
